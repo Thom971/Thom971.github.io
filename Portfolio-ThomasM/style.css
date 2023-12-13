@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border box;
+}
+
+body{
+	font-family : 'Rubik Bubbles';
+}
+
+p{
+	font-family: 'Lato';
+}
+
+a{
+	font-family: 'Lato';
+}
+
+h1{
+	color: orange;
+	font-size: 50px;
+	margin-bottom : 40px;
+}
+
+img{
+	max-width: 90px;
+}
+ 
+ nav{
+ 	padding-top: 30px;
+ 	padding-bottom: 30px;
+ 	padding-left: 10%;
+ 	padding-right: 10%;
+ 	text-align: center;
+ 	background: purple;
+}
+
+.btn1{
+	background: purple;
+	color: white;
+	padding: 20px 40px;
+}
+
+nav a: hover{
+	color: bleu;
+}
+
+.banniere p{
+	color:brown;
+	margin-bottom: 50px;
+}
+
+.btn1{
+	color; blue;
+	padding: 20px 40 px;
+	display: inline-block;
+	text-decoration: none;
+	border: 2px solid orange;
+	transition:0,5s;
+}
+
+
+.banniere{
+	background-image: url(81.jpg);
+	background-size: cover;
+}
+
+h2{
+	color: brown;
+	margin-bottom: 30px;
+}
+
+.portfolio{
+	background:brown;
+	padding: 80px 15%;
+}
+
+.grille-travail{
+	border: 5px solid brown;
+	display:grid;
+	grid-template-columns: repeat(2,1fr) ;
+	grid-gap: 60px;
+}
+
+.portfolio article{
+	border: 15px solid brown
+}
+
+footer{
+	background: brown;
+	color: white;
+	text-align: center;
+	padding: 40px 10%;
+}
